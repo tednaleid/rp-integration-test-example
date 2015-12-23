@@ -1,4 +1,4 @@
-import com.naleid.MyIpService
+import com.naleid.IpService
 import ratpack.groovy.template.MarkupTemplateModule
 import ratpack.rx.RxRatpack
 import ratpack.server.Service
@@ -18,7 +18,7 @@ ratpack {
     }
 
     module MarkupTemplateModule
-    bindInstance(MyIpService, new MyIpService())
+    bindInstance(IpService, new IpService())
   }
 
   handlers {

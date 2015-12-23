@@ -1,0 +1,4 @@
+# File: src/test/resources/META-INF/services/org.codehaus.groovy.runtime.ExtensionModule
+moduleName = ratpackAsyncTestExtension
+moduleVersion = 1.0
+extensionClasses = fixtures.async.RatpackAsyncTestExtension
